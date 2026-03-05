@@ -1,0 +1,96 @@
+div#container
+{
+   width: 900px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #008000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+#wb_userText1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: justify;
+}
+#wb_userText1 div
+{
+   text-align: justify;
+   white-space: normal;
+}
+#wb_userText2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_userText2 div
+{
+   text-align: center;
+}
+#wb_uid1
+{
+   color: #008000;
+   font-family: Arial;
+   font-size: 15px;
+}
+#wb_userText1
+{
+   position: absolute;
+   left: 17px;
+   top: 39px;
+   width: 867px;
+   height: 988px;
+   text-align: justify;
+   z-index: 0;
+}
+#wb_userText2
+{
+   position: absolute;
+   left: 309px;
+   top: 20px;
+   width: 282px;
+   height: 19px;
+   text-align: center;
+   z-index: 1;
+}
+#wb_uid0
+{
+   color: #008000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 19px;
+}

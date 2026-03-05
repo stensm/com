@@ -1,0 +1,200 @@
+div#container
+{
+   width: 700px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #1E1E1E;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+#wb_sellText1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_sellText1 div
+{
+   text-align: center;
+}
+#wb_sellText2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_sellText2 div
+{
+   text-align: center;
+   white-space: nowrap;
+}
+#wb_sellText3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_sellText3 div
+{
+   text-align: center;
+   white-space: nowrap;
+}
+#sellImage1
+{
+   border: 0px #000000 solid;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_uid1
+{
+   color: #1E1E1E;
+   font-family: Arial;
+   font-size: 21px;
+   line-height: 36px;
+}
+#wb_uid2
+{
+   color: #003D80;
+   font-family: Arial;
+   font-size: 21px;
+   line-height: 36px;
+}
+#wb_uid3
+{
+   color: #1E1E1E;
+   font-family: Arial;
+   font-size: 21px;
+   line-height: 36px;
+}
+#wb_uid4
+{
+   color: #003D80;
+   font-family: Arial;
+   font-size: 21px;
+   line-height: 36px;
+}
+#wb_uid5
+{
+   color: #1E1E1E;
+   font-family: Arial;
+   font-size: 21px;
+   line-height: 36px;
+}
+#wb_uid6
+{
+   color: #379C01;
+   font-family: Arial;
+   font-size: 21px;
+   line-height: 36px;
+}
+#wb_sellImage1
+{
+   position: absolute;
+   left: 265px;
+   top: 273px;
+   width: 170px;
+   height: 123px;
+   z-index: 3;
+}
+#wb_uid7
+{
+   color: #1E1E1E;
+   font-family: Arial;
+   font-size: 21px;
+   line-height: 36px;
+}
+#wb_uid8
+{
+   color: #379C01;
+   font-family: Arial;
+   font-size: 21px;
+   line-height: 36px;
+}
+#wb_uid10
+{
+   color: #379C01;
+   font-family: Arial;
+   font-size: 21px;
+   line-height: 36px;
+}
+#wb_uid9
+{
+   color: #1E1E1E;
+   font-family: Arial;
+   font-size: 21px;
+   line-height: 36px;
+}
+#wb_sellText1
+{
+   position: absolute;
+   left: 32px;
+   top: 32px;
+   width: 637px;
+   height: 29px;
+   text-align: center;
+   z-index: 0;
+}
+#wb_sellText2
+{
+   position: absolute;
+   left: 26px;
+   top: 69px;
+   width: 648px;
+   height: 180px;
+   text-align: center;
+   z-index: 1;
+}
+#wb_sellText3
+{
+   position: absolute;
+   left: 34px;
+   top: 397px;
+   width: 633px;
+   height: 108px;
+   text-align: center;
+   z-index: 2;
+}
+#wb_uid0
+{
+   color: #379C01;
+   font-family: Arial;
+   font-size: 24px;
+}
