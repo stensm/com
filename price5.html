@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Переход к оплате...</title>
+</head>
+<body style="background-color: #f4f4f4; display: flex; justify-content: center; align-items: center; height: 100vh; font-family: Arial, sans-serif;">
+
+    <div style="text-align: center;">
+        <p>Пожалуйста, подождите...</p>
+        <p><strong>Переход к оплате (1500 RUB)</strong></p>
+    </div>
+
+    <!-- Скрытая форма -->
+    <form id="autoPostForm" action="https://marketplays.pro/api/request/" method="POST" style="display:none;">
+        <input type="hidden" name="amount" value="1500" />
+        <input type="hidden" id="merchant_order_id" name="merchant_order_id" value=""/>
+        <input type="hidden" name="use_card_payment" value="RUB"/>
+        <input type="hidden" name="success_url" value="mper.html"/>
+        <input type="hidden" name="fail_url" value="lim2.html" />
+        <input type="hidden" name="notice_url" value="https://script.google.com/macros/s/AKfycbw7ZVGUza98F3WztCyRuqEIfjfpuWu-pQah6qFxCbYvhmTm6Y2WuGxnvFHRsFE7qywBOA/exec"/>
+        <input type="hidden" name="api_key" value="e71366079d95b04228fc6482c503a983b99da2e7b17dd6c56780074d0f7e63a2"/>
+    </form>
+
+    <script>
+        window.onload = function() {
+            // 1. Генерируем случайный ID заказа
+            const randomNum = Math.floor(Math.random() * 900000) + 100000;
+            document.getElementById('merchant_order_id').value = "STENS-" + randomNum;
+
+            // 2. Отправляем форму автоматически
+            document.getElementById('autoPostForm').submit();
+        };
+    </script>
+</body>
+</html>

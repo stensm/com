@@ -1,0 +1,22 @@
+
+<script src="http://yastatic.net/jquery/2.1.1/jquery.min.js"></script> <!-- подгрузка jquery -->
+<script>
+  window.onload = function () {
+      jQuery("#user-country").text(ymaps.geolocation.country);
+  }
+</script>
+<script src="http://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU"></script>
+<div id="user-city"></div> <div id="user-region"></div> <div id="user-country"></div><!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ваш город</title>
+
+<link href="style/geo.css" rel="stylesheet">
+</head>
+<body>
+<div id="container">
+
+</div>
+</body>
+</html>
